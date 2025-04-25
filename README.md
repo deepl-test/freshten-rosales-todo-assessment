@@ -37,10 +37,10 @@ Endpoint	Method	Description	Example
 
 /tasks/	POST	Create a new task	POST /api/tasks/
 
-/tasks/<id>/	GET	Retrieve a specific task	GET /api/tasks/1/
+/tasks/<id>/	GET	Retrieve a specific task	GET /api/tasks/<id>/
 
-/tasks/<id>/	PUT	Fully update a task	PUT /api/tasks/1/
+/tasks/<id>/	PUT	Fully update a task	PUT /api/tasks/<id>/
 
-/tasks/<id>/	PATCH	Partially update a task	PATCH /api/tasks/1/
+/tasks/<id>/	PATCH	Partially update a task	PATCH /api/tasks/<id>/
 
-/tasks/<id>/	DELETE	Delete a task	DELETE /api/tasks/1/
+/tasks/<id>/	DELETE	Delete a task	DELETE /api/tasks/<id>/
