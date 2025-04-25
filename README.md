@@ -1,9 +1,11 @@
 BACKEND Task Manager API - Django REST Framework
 
 Overview
+
 A simple Task Manager API built with Django REST Framework that allows you to create, read, update, and delete tasks with features like due dates, completion status, and sorting.
 
 Features
+
 CRUD Operations: Create, Read, Update, and Delete tasks
 
 Task Attributes:
@@ -24,6 +26,7 @@ Pagination: Results are paginated for better performance
 
 API Endpoints
 Base URL
+
 http://localhost:8000/api/
 
 Available Endpoints
